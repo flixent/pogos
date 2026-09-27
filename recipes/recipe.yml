@@ -1,5 +1,4 @@
-- type: signing # this sets up the proper policy & signing files for signed images to work fully
-# yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
+# yaml-language-server: $schema=https://blue-build.org
 # image will be published to ghcr.io/<user>/<name>
 name: pogos
 # description will be included in the image's metadata
@@ -42,4 +41,4 @@ modules:
           - org.gnome.Loupe
       - scope: user # Also add Flathub user repo, but no user packages
 
-  - type: signing # this sets up the proper policy & signing files for signed images to work fully
+# - type: signing # Disabled to bypass the private/public key error
