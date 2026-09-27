@@ -27,7 +27,3 @@ jobs:
           recipe: "recipes/recipe.yml"
           pr_event_number: ${{ github.event.number }}
           push: true
-          # Fills the required input check with dummy data
-          cosign_private_key: "not-used"
-          # Instructs the BlueBuild CLI to skip the key process completely
-          cli_flags: "--no-sign"
