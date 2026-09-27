@@ -1,3 +1,4 @@
+- type: signing # this sets up the proper policy & signing files for signed images to work fully
 # yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
 # image will be published to ghcr.io/<user>/<name>
 name: pogos
