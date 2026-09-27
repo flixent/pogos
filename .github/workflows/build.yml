@@ -27,6 +27,4 @@ jobs:
           recipe: "recipes/recipe.yml"
           pr_event_number: ${{ github.event.number }}
           push: true
-          # Force the CLI utility to completely ignore signing checks
           cli_flags: "--no-sign"
-          
